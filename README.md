@@ -48,3 +48,21 @@ where
 
 ##Windows users
 Coming soon...
+to edit hosts run notepad as admin and open 
+    
+    %systemroot%\system32\drivers\etc\hosts
+
+to run http server for BaasboxSocialLoginApp
+    
+    python -m http.server 8000
+    
+    
+from BaasboxSocialLoginApp folder
+(SimpleHTTPServer changed to http.server on v.3 latest version)
+
+
+on generation of googleAppId
+https://developers.google.com/console/help/#generatingoauth2
+
+
+https://developers.google.com/+/api/oauth
